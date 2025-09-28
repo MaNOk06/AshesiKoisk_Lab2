@@ -105,14 +105,16 @@ public class HealthKiosk {
                     // Converting the generated numbers to string
                     randomNumbers = new StringBuilder();
 
-                    for (int i = 0; i < 4; i++){
-                        // 7 was used because the quantity of numbers between 3 and 9 is 7
-                        randNumbers = 3 + rand.nextInt(7);
-
-                        // Appending each round of numbers
-                        randomNumbers.append(randNumbers);
-                    }
-
+                    // 7 was used because the quantity of numbers between 3 and 9 is 7
+                    // Appending each round of numbers
+                    randNumbers = 3 + rand.nextInt(7);
+                    randomNumbers.append(randNumbers);
+                    randNumbers = 3 + rand.nextInt(7);
+                    randomNumbers.append(randNumbers);
+                    randNumbers = 3 + rand.nextInt(7);
+                    randomNumbers.append(randNumbers);
+                    randNumbers = 3 + rand.nextInt(7);
+                    randomNumbers.append(randNumbers);
                     // toString converts it from StrongBuilder format to a proper String
                     ID = randUpper + randomNumbers.toString();
                     System.out.println("Your ID is " + ID);
@@ -129,7 +131,7 @@ public class HealthKiosk {
                     shiftedLetter = (char) ('A' + (base - 'A' + 2) % 26);
 
                     // Using a ternary operator instead of an if/else
-                    lastTwo = ID.length() >= 2 ? ID.substring(ID.length() - 2) : "XX";
+                    lastTwo = ID.substring(ID.length() - 2) ;
 
                     finalFormat = shiftedLetter + lastTwo + "-" + (int) Math.round(BMI);
                     System.out.println("Your code is " + finalFormat);
@@ -148,13 +150,16 @@ public class HealthKiosk {
                     // Converting the generated numbers to string
                     randomNumbers = new StringBuilder();
 
-                    for (int i = 0; i < 4; i++){
-                        // 7 was used because the quantity of numbers between 3 and 9 is 7
-                        randNumbers = 3 + rand.nextInt(7);
-
-                        // Appending each round of numbers
-                        randomNumbers.append(randNumbers);
-                    }
+                    // 7 was used because the quantity of numbers between 3 and 9 is 7
+                    // Appending each round of numbers
+                    randNumbers = 3 + rand.nextInt(7);
+                    randomNumbers.append(randNumbers);
+                    randNumbers = 3 + rand.nextInt(7);
+                    randomNumbers.append(randNumbers);
+                    randNumbers = 3 + rand.nextInt(7);
+                    randomNumbers.append(randNumbers);
+                    randNumbers = 3 + rand.nextInt(7);
+                    randomNumbers.append(randNumbers);
 
                     // toString converts it from StrongBuilder format to a proper String
                     ID = randUpper + randomNumbers.toString();
@@ -172,7 +177,7 @@ public class HealthKiosk {
                     shiftedLetter = (char) ('A' + (base - 'A' + 2) % 26);
 
                     // Using a ternary operator instead of an if/else
-                    lastTwo = ID.length() >= 2 ? ID.substring(ID.length() - 2) : "XX";
+                    lastTwo = ID.substring(ID.length() - 2) ;
 
                     finalFormat = shiftedLetter + lastTwo + "-" + tablets;
                     System.out.println("Your code is " + finalFormat);
@@ -193,13 +198,16 @@ public class HealthKiosk {
                     // Converting the generated numbers to string
                     randomNumbers = new StringBuilder();
 
-                    for (int i = 0; i < 4; i++){
-                        // 7 was used because the quantity of numbers between 3 and 9 is 7
-                        randNumbers = 3 + rand.nextInt(7);
-
-                        // Appending each round of numbers
-                        randomNumbers.append(randNumbers);
-                    }
+                    // 7 was used because the quantity of numbers between 3 and 9 is 7
+                    // Appending each round of numbers
+                    randNumbers = 3 + rand.nextInt(7);
+                    randomNumbers.append(randNumbers);
+                    randNumbers = 3 + rand.nextInt(7);
+                    randomNumbers.append(randNumbers);
+                    randNumbers = 3 + rand.nextInt(7);
+                    randomNumbers.append(randNumbers);
+                    randNumbers = 3 + rand.nextInt(7);
+                    randomNumbers.append(randNumbers);
 
                     // toString converts it from StrongBuilder format to a proper String
                     ID = randUpper + randomNumbers.toString();
@@ -217,7 +225,7 @@ public class HealthKiosk {
                     shiftedLetter = (char) ('A' + (base - 'A' + 2) % 26);
 
                     // Using a ternary operator instead of an if/else
-                    lastTwo = ID.length() >= 2 ? ID.substring(ID.length() - 2) : "XX";
+                    lastTwo = ID.substring(ID.length() - 2) ;
 
                     finalFormat = shiftedLetter + lastTwo + "-" + (int) Math.round(sine * 100);
                     System.out.println("Your code is " + finalFormat);
@@ -242,13 +250,16 @@ public class HealthKiosk {
             // Converting the generated numbers to string
             randomNumbers = new StringBuilder();
 
-            for (int i = 0; i < 4; i++){
-                // 7 was used because the quantity of numbers between 3 and 9 is 7
-                randNumbers = 3 + rand.nextInt(7);
-
-                // Appending each round of numbers
-                randomNumbers.append(randNumbers);
-            }
+            // 7 was used because the quantity of numbers between 3 and 9 is 7
+            // Appending each round of numbers
+            randNumbers = 3 + rand.nextInt(7);
+            randomNumbers.append(randNumbers);
+            randNumbers = 3 + rand.nextInt(7);
+            randomNumbers.append(randNumbers);
+            randNumbers = 3 + rand.nextInt(7);
+            randomNumbers.append(randNumbers);
+            randNumbers = 3 + rand.nextInt(7);
+            randomNumbers.append(randNumbers);
 
             // toString converts it from StrongBuilder format to a proper String
             ID = randUpper + randomNumbers.toString();
@@ -266,7 +277,7 @@ public class HealthKiosk {
             shiftedLetter = (char) ('A' + (base - 'A' + 2) % 26);
 
             // Using a ternary operator instead of an if/else
-            lastTwo = ID.length() >= 2 ? ID.substring(ID.length() - 2) : "XX";
+            lastTwo = ID.substring(ID.length() - 2) ;
 
             finalFormat = shiftedLetter + lastTwo + "-" + 0;
             System.out.println("Your code is " + finalFormat);
