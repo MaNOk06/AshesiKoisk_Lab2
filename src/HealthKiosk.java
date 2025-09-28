@@ -233,6 +233,7 @@ public class HealthKiosk {
             default:
                 System.out.println("Invalid Service Code!");
         }
+
         // Generating an ID for the other switch cases
         if (visitorInput != 'T'){
             // This method makes use of ASCII and Unicode: The int adds up to the Unicode to produce the next letter
@@ -277,7 +278,10 @@ public class HealthKiosk {
             case "TRIAGE":
             case "LAB":
             case "COUNSELLING":
-                    System.out.println("Summary: " + serviceName + " | ID: " + ID + " | Code: " + finalFormat);
+                System.out.print("Enter you name: ");
+                visitorName = input.nextLine();
+                System.out.println("Summary for " + visitorName + "Service: " + serviceName + " | ID: " + ID + " | Code: " + finalFormat);
+                break;
             default:
                 System.out.println("Summary: " + serviceName + " | ID: " + ID + " | Code: " + finalFormat);
         }
